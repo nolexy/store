@@ -60,7 +60,7 @@
       content: "";
       position: absolute;
       top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(121, 66, 26, 0.6); /* ظل شفاف فوق الصورة */
+      
       z-index: 0;
     }
 
@@ -200,9 +200,32 @@
 
   <!-- ====== HEADER ====== -->
   <header>
-    <h1>معجون السفرجل الطبيعي 🍯</h1>
-    <p>الطعم الأصيل من قلب الطبيعة – صحي ولذيذ وخالٍ من المواد الحافظة</p>
-    <button class="btn" onclick="window.location.href='#order'">اطلب الآن</button>
+ <section id="home" style="
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  padding:60px 20px;
+  background-color:#EED6A8;
+">
+  <div style="max-width:400px; text-align:right;">
+    <h1 style="color:#C97B30;">معجون السفرجل الطبيعي 🍯</h1>
+    <p style="font-size:1.2rem; color:#333;">
+      استمتع بالطعم الأصيل لمعجون السفرجل المصنوع من فواكه طازجة 100%.
+      منتج طبيعي، لذيذ، وصحي بدون مواد حافظة.
+    </p>
+    <button class="btn" onclick="window.location.href='https://wa.me/213560073327'">أطلب عبر واتساب</button>
+  </div>
+
+  <div>
+    <img src="photo/photo_2025-10-27_13-46-49.jpg" alt="معجون السفرجل" style="
+      width:350px;
+      border-radius:15px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    ">
+  </div>
+</section>
+
   </header>
 
   <!-- ====== HOME ====== -->
@@ -238,16 +261,17 @@
   <section id="order">
     <h2>اطلب الآن</h2>
     <p>اختر الكمية المناسبة وتواصل معنا لإتمام الطلب 👇</p>
-    <button class="btn" onclick="window.location.href='https://wa.me/213XXXXXXXXX'">اطلب عبر واتساب</button>
+    <button class="btn" onclick="window.location.href='https://wa.me/213560073327'">اطلب عبر واتساب</button>
   </section>
 
   <!-- ====== FOOTER ====== -->
   <footer id="contact">
     <p>📍 الجزائر – منتج طبيعي محلي</p>
-    <p>📞 تواصل معنا: <a href="https://wa.me/213XXXXXXXXX">واتساب</a></p>
+    <p>📞 تواصل معنا: <a href="https://wa.me/213560073327">واتساب</a></p>
     <p>© 2025 متجر السفرجل | جميع الحقوق محفوظة</p>
   </footer>
 
 </body>
 </html>
+
 
